@@ -1,0 +1,8 @@
+<?php
+
+/**
+* Implements hook_mail_alter().
+*/
+function pvhee_devel_mail_alter(&$message) {
+  dpm($message);
+}
